@@ -151,3 +151,27 @@ savedClipboard := []
         }
     }
 }
+
+::cJira:: { 
+        colar_texto("https://azuredevops.pine.com/Varejo/Consignado%20P%C3%BAblico/_boards/board/t/Consignado%20P%C3%BAblico%20Team/Backlog%20items")
+        Send("{Enter}")
+    }
+
+    ::aCardBugBack::
+    ::aCardBBack::
+    ::aBugBack:: {
+        texto :=
+            (
+                "** Descrição: 
+
+nº da inscrição: 
+URL da request:
+
+Passo a passo: 
+
+Resultado esperado: 
+
+Resultado obtido: **"
+            )
+        colar_texto(texto)
+}
