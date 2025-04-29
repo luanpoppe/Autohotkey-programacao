@@ -1,9 +1,11 @@
 ﻿#Requires AutoHotkey >=v2.0
+#Include "./env.ahk"
 #Include "./configuracoes.ahk"
 
 #Include "./Code/_modulo.ahk"
 #Include "./Atalhos_Notion/_modulo.ahk"
 #Include "./Funcoes_Uteis/modulo.ahk"
+
 
 ::cJira:: { 
         colar_texto("https://azuredevops.pine.com/Varejo/Consignado%20P%C3%BAblico/_boards/board/t/Consignado%20P%C3%BAblico%20Team/Backlog%20items")
